@@ -18,7 +18,7 @@
 	h2 {
 		font-size: 2rem;
 		text-align: center;
-		
+
 	}
 
 	h3 {
@@ -68,6 +68,39 @@
 
 	#gallery-container > img {
 		height: 150px;
+	}
+
+	#tickets-container,
+	#passes-container,
+	#addons-container,
+	#travel-container,
+	#contact-container {
+		display: grid;
+		grid-template-columns: 1fr;
+		margin: 0;
+		padding: 0;
+		gap: 20px;
+	}
+
+	.addon > img,
+	#travel-container > div > img {
+		height: 200px;
+	}
+
+	#rules-container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 30px 30px;
+
+	}
+
+	.dos > ul,
+	.donts > ul {
+		padding-left: 20px;
+	}
+
+	.rules-img {
+		display: none;
 	}
 
 }
